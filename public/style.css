@@ -51,8 +51,8 @@ vertical-align: middle;
 }
 
 .main__exp-logo{
-width: 100px;
-height: 50px;
+width: 250px;
+height: 80px;
 
 }
 
@@ -238,7 +238,7 @@ height: 50px;
   .mask.full-6,
   .circle .fill-6 {
     animation: fill-6 ease-in-out 3s;
-    transform: rotate(135deg);
+    transform: rotate(126deg);
   }
   
   @keyframes fill-6{
@@ -246,7 +246,7 @@ height: 50px;
       transform: rotate(0deg);
     }
     100% {
-      transform: rotate(135deg);
+      transform: rotate(126deg);
     }
   }
     /* 7to progress bar */
@@ -269,7 +269,7 @@ height: 50px;
       transform: rotate(135deg);
     }
   }
-    /* 4to progress bar */
+    /* 8vo progress bar */
    .mask .fill-8 {
     clip: rect(0px, 50px, 100px, 0px);
     background-color:teal;
@@ -278,7 +278,7 @@ height: 50px;
   .mask.full-8,
   .circle .fill-8 {
     animation: fill-8 ease-in-out 3s;
-    transform: rotate(135deg);
+    transform: rotate(117deg);
   }
   
   @keyframes fill-8{
@@ -286,10 +286,10 @@ height: 50px;
       transform: rotate(0deg);
     }
     100% {
-      transform: rotate(135deg);
+      transform: rotate(117deg);
     }
   }
-    /* 4to progress bar */
+    /* 9no progress bar */
    .mask .fill-9 {
     clip: rect(0px, 50px, 100px, 0px);
     background-color: black;
@@ -311,6 +311,12 @@ height: 50px;
   }
   /* end progress bar */
 
+  .main__proyect-img{
+    /* width: 500px;
+    height: 300px; */
+    box-shadow: 20px 20px 30px black;
+  }
+
   footer{
     height: 80px;
     width: 100%;
@@ -324,3 +330,4 @@ height: 50px;
     width: 120px;
     }
   }
+  
